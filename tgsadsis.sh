@@ -1,5 +1,7 @@
 #!/bin/bash
 
+networkSpeed () {
+
 read -p 'Interface (ex: eth0, etc): ' data
 
 while true
@@ -15,3 +17,5 @@ do
 	RKBPS=`expr $RBPS / 1024`
 	echo "tx $1: $TKBPS kb/s rx $1: RKBPS kb/s"
 done
+
+}
