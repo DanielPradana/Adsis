@@ -20,6 +20,7 @@ done
 
 }
 
+
 monitorSystem () {
 printf "Memory\t\tDisk\t\tCPU\n"
 SECONDS=$(date +'%S')
@@ -42,4 +43,14 @@ echo "2. MONITOR SYSTEM\n"
 echo "3. EXIT\n"
 echo "Choose one: "
 read pilih
-
+case $pilih in
+	1)
+	networkSpeed
+	;;
+	2)
+	monitorSystem
+	;;
+	3)
+	exit
+	;;
+esac
