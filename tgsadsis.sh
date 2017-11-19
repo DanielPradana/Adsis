@@ -33,3 +33,13 @@ do
 sleep 1
 done
 }
+
+echo "=========================================\n"
+echo "	TEST NETWORK SPEED & MONITOR SYSTEM	\n"
+echo "=========================================\n"
+echo "1. TEST NETWORK SPEED\n"
+echo "2. MONITOR SYSTEM\n"
+echo "3. EXIT\n"
+echo "Choose one: "
+read pilih
+
